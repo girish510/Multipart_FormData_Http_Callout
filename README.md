@@ -13,7 +13,7 @@ This project provides a reusable Apex class that allows Salesforce Flows to send
 - Fully configurable through Flow Action using Invocable Apex
 
 # ⚙️ How It Works
-The MultipartHttpCalloutFlow class exposes an Invocable method that can be used in Flow. It constructs a multipart/form-data body, sends an HTTP POST request, and returns the response.
+The AddBeforePhoto_Flow class exposes an Invocable method that can be used in Flow. It constructs a multipart/form-data body, sends an HTTP POST request, and returns the response.
 
 # 📌 Notes
 - This callout must run in an asynchronous context or with Callout-enabled Flow.
